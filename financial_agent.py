@@ -6,7 +6,7 @@ from phi.tools.yfinance import YFinanceTools
 from phi.tools.duckduckgo import DuckDuckGo 
 load_dotenv()
 api = os.getenv('GROQ_API_KEY')
-model = Groq(id='llama-3.3-70b-versatile', api_key=api)
+model = Groq(id='DeepSeek-R1-Distill-Llama-70B', api_key=api)
 web_search_agent = Agent(
     name = 'Web search Agent',
     role = 'Search the web for the information',
