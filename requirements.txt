@@ -11,3 +11,6 @@ sqlalchemy
 pgvector
 psycopg[binary]
 pypdf
+
+streamlit
+duckduckgo-search
